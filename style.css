@@ -1,0 +1,30 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1em;
+  width: 30%;
+  margin: 1em;
+  padding: 1em; 
+  border: 1px solid;
+}
+
+button{
+  align-self: start;
+  padding: .75em;
+  color: white;
+  background: rebeccapurple;
+}
+
+label,input {
+  display: block;
+}
+
+label{
+  font-weight: bold;
+  margin-bottom: .5em;
+}
